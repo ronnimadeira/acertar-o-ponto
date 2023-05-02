@@ -9,6 +9,6 @@ let sprite: game.LedSprite = null
 sprite = game.createSprite(2, 2)
 basic.forever(function () {
     sprite.move(1)
-    basic.pause(100)
+    basic.pause(500)
     sprite.ifOnEdgeBounce()
 })
